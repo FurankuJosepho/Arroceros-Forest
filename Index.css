@@ -1,0 +1,131 @@
+
+body {
+ 
+    background-image: url(../images/bg.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    margin: 0px;
+}
+
+
+.footer {
+height: 50px;
+width: 100%;
+
+}
+
+.footer p {
+  font-size: 16px; 
+  
+  }
+
+
+.social-icons {
+    
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.navbar-nav .nav-link {
+font-size: 25px; 
+}
+
+
+
+
+ .navbar-brand img {
+    max-height: 60px; /* Default height */
+  }
+
+
+
+.row {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.684);
+   border: 20px solid rgba(255, 255, 255, 0);
+   border-radius: 10px;
+   margin-right: 30px;
+   margin-left: 20px;
+}
+
+
+p {
+
+margin: 10px 50px;
+}
+
+
+h2 {
+
+margin: 0 50px;
+
+}
+
+.activities-row {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  justify-items: center;
+  
+}
+
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  
+}
+
+.activity-item {
+  text-align: center;
+  
+}
+
+.activity-item img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  min-width: 200px;
+}
+
+.activity-item h3 {
+  margin-top: 10px; /* Add margin to the top to separate from the image */
+  text-align: center;
+
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Caption text color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Media query for small and extra small screens */
+  @media (max-width: 576px) {
+    .navbar-brand img {
+      max-height: 40px; /* Adjust the height for small and extra small screens */
+    }
+  }
