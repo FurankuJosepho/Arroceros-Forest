@@ -4,6 +4,15 @@ body {
     background-size: 100%;
     margin: 0px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    margin-right: 200px;
+}
+.navbar {
+    height: 90px;
+    width: 100%;
+    z-index: 100;
 }
 .footer {
     height: 50px;
@@ -29,9 +38,13 @@ body {
     border-radius: 10px;
     margin-right: 30px;
     margin-left: 20px;
+    padding: 30px 0;
 }
 p {
     margin: 10px 50px;
+}
+a{
+    scroll-behavior: smooth;
 }
 h2 {
     margin: 0 50px;
@@ -49,6 +62,9 @@ h2 {
     padding: 0;
     box-shadow: none;
     justify-items: center;
+}
+.img-fluid {
+    border-radius: 10px;
 }
 .custom-grid {
     display: grid;
@@ -77,8 +93,24 @@ h2 {
     text-align: center;
     color: white; /* Caption text color */
 }
-
-
+.ForestCap {
+    font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
+}
+.ForestP {
+    font-size: clamp(0.625rem, -0.9375rem + 5vw, 1.875rem);
+}
+.forest {
+    font-weight: bold;
+}
+.carousel {
+    height: 100%;
+}
+.footer-text {
+    font-size: 1.2vw;
+}
+i {
+    color: rgba(255, 255, 255, 0.684);
+}
 
 
 /* 3 space dapat palagi before meadia Query para maayos tingnan */
@@ -86,6 +118,20 @@ h2 {
   /* Media query for small and extra small screens */
   @media (max-width: 576px) {
     .navbar-brand img {
-      max-height: 40px; /* Adjust the height for small and extra small screens */
+      max-height: 30px; /* Adjust the height for small and extra small screens */
+    }
+    .navbar {
+        height: 70px;
+    }
+    .carousel-caption {
+        margin-bottom: 500px;
+        text-align: center;
+        color: white; /* Caption text color */
+    }
+    .ForestCap {
+        font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
+    }
+    .ForestP {
+        overflow: hidden;
     }
   }
