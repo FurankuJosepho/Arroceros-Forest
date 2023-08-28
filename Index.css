@@ -166,7 +166,13 @@ input {
 #email {
     margin-right: 50px;
 }
-
+.Send {
+    background-color: #cfaf74;
+    border-radius: 40px;
+    width: 100px;
+    border-color: #fff;
+    color: #fff;
+}
 .email {
     margin-right: 250px;
 }
@@ -249,7 +255,7 @@ textarea {
     margin-top: 50px;
   }
   .Naiza-Image {
-    filter: drop-shadow(2px 0px 5px #000);
+    filter: drop-shadow(2px 0px 10px #1a331ede);
   }
   .Naiza {
     display: grid;
