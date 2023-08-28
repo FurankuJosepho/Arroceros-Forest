@@ -268,3 +268,16 @@ textarea {
         overflow: hidden;
     }
 }
+ /* Naiza's Part */
+ .Naiza img {
+    width: 200px;
+  }
+  .Naiza {
+    display: grid;
+    grid-template-columns: 300px 800px;
+    grid-template-rows: 200px;
+    padding-top: 200px;
+  }
+  body {
+    background-image: url(images/bg.jpg);
+  }
