@@ -233,13 +233,35 @@ textarea {
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
     border-radius: 0;
     border: 0;
-    margin-bottom: 1.5em;
+    margin-bottom: 50px;
     height: 400px;
-    margin-top: 700px;
+    margin-top: 680px;
 }
 .card:hover {
     transform: scale(1.1);
 }
+ /* Naiza's Part */
+ .sentence {
+    text-align: center;
+ }
+ .Naiza .Naiza-Image {
+    width: 300px;
+    margin-top: 50px;
+  }
+  .Naiza-Image {
+    filter: drop-shadow(2px 0px 5px #000);
+  }
+  .Naiza {
+    display: grid;
+    grid-template-columns: 300px 800px;
+    grid-template-rows: 200px;
+    padding-top: 40px;
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+
+
+
 /* 3 space dapat palagi before meadia Query para maayos tingnan */
 
 /* Media query for small and extra small screens */
@@ -268,16 +290,3 @@ textarea {
         overflow: hidden;
     }
 }
- /* Naiza's Part */
- .Naiza img {
-    width: 200px;
-  }
-  .Naiza {
-    display: grid;
-    grid-template-columns: 300px 800px;
-    grid-template-rows: 200px;
-    padding-top: 200px;
-  }
-  body {
-    background-image: url(images/bg.jpg);
-  }
